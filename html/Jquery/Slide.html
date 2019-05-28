@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Slide.css">
+  </head>
+  <body> 
+    <div id ="hinh1"></div>
+    <div id="hinh2"></div>
+    <div id="hinh3"></div>
+        <script>
+          $(document).ready( function() {
+            $('#hinh1').click( function() {
+              $('#hinh1').hide();
+              $('#hinh2').show();
+              $('#hinh3').hide();
+            }
+            )
+            $('#hinh2').click(function() {
+              $('#hinh1').hide();
+              $('#hinh2').hide();
+              $('#hinh3').show();
+            }
+            ) 
+            $('#hinh3').click(function() {
+              $('#hinh1').show();
+              $('#hinh2').hide();
+              $('#hinh3').hide();
+            }
+            )    
+          }
+          )
+        </script>
+ 
+  </body>
+</html>

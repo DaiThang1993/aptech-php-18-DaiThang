@@ -1,0 +1,19 @@
+div {
+    height: 200px;
+    width: 100%;
+}
+#hinh1 {
+    background-image: url(./images.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#hinh2 {
+    background-image: url(./images\(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#hinh3 {
+    background-image: url(./images\(2\).jpg);
+    background-size: cover;
+    background-position: center;
+}
