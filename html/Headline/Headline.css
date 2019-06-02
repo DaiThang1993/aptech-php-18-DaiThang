@@ -1,0 +1,34 @@
+#hinh1, #hinh2, #hinh3 {
+    height: 500px;
+    width: 100%;
+}
+#hinh4, #hinh5, #hinh6 {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+#hinh7 {
+    height: 400px;
+    width: 100%;
+    background-image: url(./Con-duong-la-do.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#hinh8 {
+    height: 400px;
+    width: 100%;
+    background-image: url(./download.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#hinh9 {
+    height: 400px;
+    width: 100%;
+    background-image: url(./images.jpeg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,20 @@
+#hinh1 {
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+
+}
+#hinh2 {
+    background-image: url(./2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    height: 50px;
+}

@@ -1,0 +1,85 @@
+#hinh1 {
+    background-image: url(./bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    
+}
+#hinh2 {
+    margin-top: 100px;
+}
+#hinh3 {
+    background-image: url(./bg-showcase-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+#hinh4 {
+    background-image: url(./bg-showcase-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+
+}
+#hinh5 {
+    background-image: url(./bg-showcase-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+#hinh6 {
+    background-image: url(./testimonials-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+
+}
+#hinh7 {
+    background-image: url(./testimonials-2.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+}
+#hinh8 {
+    background-image: url(./testimonials-3.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+
+}
+#x2 {
+    margin-bottom: 100px;
+}
+#x1 {
+    margin-top: 100px
+}
+#x3 {   
+    background-image: url(./bg-masthead.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+    width: 100%;
+
+}
