@@ -8,26 +8,71 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-      <div class="container">
+      <header class="container header">
+        <div class="row">
+            <div class="col-md-4 d-md-flex d-none  d-md-block justify-content-start mt-3">
+                <input type="button" class="btn btn-outline-danger" value="SIGN UP NOW">
+            </div>    
+            <div class="col-12 col-md-4 d-md-flex justify-content-md-center d-flex justify-content-between">
+                <h1 class="text-success text-uppercase mt-3">News</h1>
+                <div class="pos-f-t">
+                      <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                          <h5 class="text-white h4">Collapsed content</h5>
+                          <span class="text-muted">Toggleable via the navbar brand.</span>
+                        </div>
+                      </div>
+                      <nav class="navbar navbar-dark bg-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      </nav>
+                    </div>
+            </div>
+            <div class="col-md-4 d-md-flex d-none d-md-block  justify-content-end mt-3">
+                <i class="fas fa-search fa-2x mt-3 mr-2"></i>
+                <input type="button" class="btn btn-outline-success" value="SIGN IN">
+            </div>
+        </div>
+      </header>
+      <div class="container d-none d-md-block mt-3">
           <div class="row">
-              <div class="col-4 d-flex justify-content-start mt-3">
-                  <input type="button" class="btn btn-outline-danger" value="SIGN UP NOW">
-              </div>
-              <div class="col-4">
-                  <h1 class="text-success d-flex justify-content-center text-uppercase mt-3">News</h1>
-              </div>
-              <div class="col-4 d-flex  justify-content-end mt-3">
-                  <i class="fas fa-search fa-2x mt-3 mr-2"></i>
-                  <input type="button" class="btn btn-outline-success" value="SIGN IN">
+              <div class="col-12 collapse" id="navbarToggleExternalContent">
+                  <ul class="list-unstyled d-flex justify-content-between">
+                      <li>
+                          <a class="text-muted" href="">&#60;</a>
+                      </li>
+                      <li>
+                          <a href="#" class="text-muted">HOME</a>
+                      </li>
+                      <li>
+                          <a href="#" class="text-muted">HTML</a>
+                      </li>
+                      <li>
+                          <a href="#" class="text-muted">CSS</a>
+                      </li>
+                      <li>
+                          <a href="#" class="text-muted">Javascript</a>
+                      </li>
+                      <li>
+                          <a href="#" class="text-muted">PHP</a>
+                      </li>
+                      <li>
+                          <a href="#" class="text-muted">Lavarel</a>
+                      </li>
+                      <li>
+                          <a href="#" class="text-muted">&#62</a>
+                      </li>
+                  </ul>
               </div>
           </div>
       </div>
       <hr>
       <div class="container">
           <div class="row mt-3">
-              <div class="col-4">
+              <div class="col-md-4 col-6">
                   <div id="hinh1">
-                        <div class="text-white" style="width: 18rem;">
+                        <div class="text-white" style="width: 21rem;">
                             <div class="card-body" style="padding-top:170px;">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -35,9 +80,9 @@
                         </div>
                   </div>
               </div>
-              <div class="col-4">
+              <div class="col-md-4 d-none d-md-block">
                   <div id="hinh2">
-                        <div class="text-white" style="width: 18rem;">
+                        <div class="text-white" style="width: 21rem;">
                             <div class="card-body" style="padding-top:170px;">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -45,8 +90,8 @@
                         </div>
                   </div>
               </div>
-              <div class="col-4">
-                  <div>
+              <div class=" col-6 col-md-4" >
+                  <div style="width: 100%"> 
                         <table>
                                 <tr>
                                     <th class="text-capitalize bg-light">hot news</th>
@@ -61,10 +106,10 @@
                                     <td>That photograph made me remember my old teacher who taught us high school</td>
                                 </tr>
                                 <tr>
-                                    <td>How are you? I hear that you are going to travel with your family next week</td>
+                                    <td>How are you? I hear that </td>
                                 </tr>
                                 <tr>
-                                    <td>After good meal, we talked and listened romantic songs and danced</td>
+                                    <td>After good meal, we talked </td>
                                 </tr>
                             </table>
                   </div>
@@ -76,19 +121,154 @@
       <div class="container">
           <div class="row">
               <div class="col-12">
-                  <p class="bg-success text-white">Features</p>
+                  <span class="rounded bg-success text-white">Features</span>
               </div>
           </div>
       </div>
-      <div class="container">
+      <div class="container mt-3">
           <div class="row">
-              <div class="col-4"></div>
-              <div class="col-4"></div>
-              <div class="col-4"></div>
+              <div class="col-md-4 col-6 d-flex flex-md-column">
+                <div class="card" style="width: 21rem;">
+                    <img src="./3.jpg" class="card-img-top" alt="..." style="height: 170px;">
+                    <div class  ="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title.</p>
+                    </div>
+                    <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                  </div>
+                <div class="card mt-2 d-none d-md-block" style="width: 21rem;">
+                    <img src="./5.jpg" class="card-img-top" alt="..." style="height: 170px;">
+                    <div class  ="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick exampl text to build on the card title.</p>
+                    </div>
+                    <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-6 d-flex flex-md-column">
+                    <div class="card" style="width: 21rem;">
+                            <img src="./4.jpg" class="card-img-top" alt="..." style="height: 170px;">
+                            <div class  ="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quic example text to build on the card title.</p>
+                            </div>
+                            <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                    </div>  
+                    <div class="card mt-2 d-none d-md-block" style="width: 21rem;">
+                            <img src="./7.jpg" class="card-img-top" alt="..." style="height: 170px;">
+                            <div class  ="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title.</p>
+                            </div>
+                            <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                    </div>
+              </div>
+              <div class="col-4">
+                    <div class="card d-none d-md-block" style="width: 21rem; height:100%;">
+                            <img src="./8.jpg" class="card-img-top" alt="..." style="height: 350px;">
+                            <div class ="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title.</p>
+                            </div>
+                            <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                    </div>
+              </div>
           </div>
       </div>
+      <hr>
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <span class="rounded bg-danger text-white">Hot</span>
+              </div>
+          </div>
+      </div>
+      <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-4 d-none d-md-block">
+                      <div class="card" style="width: 21rem; height: 100%;">
+                            <img src="./9.jpg" class="card-img-top" alt="..." style="height: 350px;">
+                            <div class  ="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title.</p>
+                            </div>
+                            <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                      </div>
+                </div>
+                <div class="col-md-4 col-6 d-flex flex-md-column ">
+                  <div class="card" style="width: 21rem;">
+                      <img src="./10.jpg" class="card-img-top" alt="..." style="height: 170px;">
+                      <div class  ="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                      </div>
+                      <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                    </div>
+                  <div class="card mt-2 d-none d-md-block" style="width: 21rem;">
+                      <img src="./11.jpg" class="card-img-top" alt="..." style="height: 170px;">
+                      <div class  ="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title.</p>
+                      </div>
+                      <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 d-flex flex-md-column">
+                      <div class="card" style="width: 21rem;">
+                              <img src="./12.jpg" class="card-img-top" alt="..." style="height: 170px;">
+                              <div class  ="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title.</p>
+                              </div>
+                              <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                      </div>  
+                      <div class="card mt-2 d-none d-md-block" style="width: 21rem;">
+                              <img src="./7.jpg" class="card-img-top" alt="..." style="height: 170px;">
+                              <div class  ="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title.</p>
+                              </div>
+                              <div class="card-footer bg-light text-muted"> Last updated 3 mins ago</div>
+                      </div>
+                </div>
 
+            </div>
+      </div>
+      <hr>
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6 col-10">
+                      <h2 class="text-uppercase"><strong>hệ thống đào tạo cntt quốc tế softech aptech</strong></h2>
+                      <p class="text-muted text-capitalize">
+                            Địa chỉ: Tòa nhà VNPT, 38 Yên Bái, Quận Hải Châu, Thành Phố Đà Nẵng
+                            Điện thoại: 0236.3.779.779 - Fax: 0236.3.779.555
+                            Email: tuyensinh@softech.vn
+                            Softech Corporation © 2001 - 2019 | All rights reserved.
+                      </p>
 
- 
+                  </div>    
+                  <div class="col-md-3 d-none d-md-block">
+                      <ul class="list-unstyled ml-5">
+                          <li class="mb-2"><strong>Navigation</strong></li>
+                          <li>HOME</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript</li>
+                          <li>About</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3 col-2">
+                      <ul class="list-unstyled">
+                          <li class="mb-2"><strong>About</strong></li>
+                          <li>Team</li>
+                          <li>Location</li>
+                          <li>Privacy</li>
+                          <li>Terms</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </footer>
   </body>
 </html>
